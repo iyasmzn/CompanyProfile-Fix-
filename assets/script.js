@@ -1,4 +1,10 @@
 $(document).ready(function() {
+			$('.search-active').click( function() {
+				$('.search-body').animate({right: "0px"},'slow');
+			});
+			$('.search-deactivated').click( function() {
+				$('.search-body').animate({right: "-100%"},'slow');
+			});
 			// Midnight Plugin
 			// $('.midnight-plugin').midnight();
 			$('.nava').midnight();

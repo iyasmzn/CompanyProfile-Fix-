@@ -3,74 +3,16 @@
 <head>
 	<link rel="icon" type="png/jpg" href="https://st2.depositphotos.com/3867453/6715/v/950/depositphotos_67151237-stock-illustration-letter-i-logo-icon-design.jpg">
 	<title>LandingPage | Iyasmzn </title>
-	<!-- My Own CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
-	<!-- Responsive meta tag -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Bootsrtap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<!-- AOS -->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<!-- FontAwesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
-	<!-- FontGoogle -->
-	<link href="https://fonts.googleapis.com/css?family=Anton|Satisfy|Alata|Poppins|Quicksand|Ibarra+Real+Nova&display=swap" rel="stylesheet">
-	<!-- Slick -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+	<?php include './tmp/link.php';?>
 
 </head>
 <body class="bg-darker">
 	<!-- <div class="midnight-plugin">
 		<h1 class="midnight-logo">@iyasmzn</h1>
 	</div> -->
-	<div class="nava nava-midnight nava-abs w-100 px-0 my-4">
-		<nav class="navbar navbar-expand-md justify-content-between py-0 text-light">
-			<a class="logo-dihover" href="#">
-					<span id="logos-bold">Iyas</span><span id="logos-light">mzn</span>
-			</a>
-		 	<ul class="navbar-nav mennus">
-		   	<li class="nav-item">
-		   		<a class="nav-link nav-pad" href="https://iyasmzn07.000webhostapp.com/">Home</a>
-		   	</li>
-		    	<li class="nav-item">
-		      		<a class="nav-link nav-pad" href="#">Portofolio</a>
-		    	</li>
-		    	<li class="nav-item">
-		      		<a class="nav-link nav-pad" href="#">My Project</a>
-		    	</li>
-		    	<li class="nav-item">
-		      		<a class="nav-link nav-pad" href="#">Design</a>
-		    	</li>
-		    	<li class="nav-item">
-		      		<a class="nav-link nav-pad" href="#">Blog</a>
-		    	</li>
-		    	<li class="nav-item">
-		      		<a class="nav-link nav-pad" href="#">Features</a>
-		    	</li>
-		    	<li class="nav-item">
-		      		<a class="nav-link nav-pad" href="#">Contact</a>
-		    	</li>
-		   </ul>
-		   <div>
-	  	 	   <ul class="navbar-nav right-side-menu">
-		      	<li class="nav-item">
-		        		<a class="nav-link text-info" href="#">
-		        			<i class="fas fa-search"></i>
-		        		</a>
-		      	</li>
-	      		<li class="nav-item">
-	        			<a class="nav-link" href="#">
-	        				<i class="fas fa-bars"></i>
-	        			</a>
-	      		</li>
-		      </ul>
-		   </div>
-		</nav>
-	</div>
-	<span class="nava-mobile">
-		<a href="#header" class="text-light"><i class="fas fa-bars"></i></a>
-	</span>
+	<!-- Navbar menu -->
+		<?php include './tmp/navbar.php';?>
+	<!-- end Navbar -->
 	<div data-aos="fade-down" id="header">
 		<div id="header-slick">
 			<div class="header-slick2" style="height: 55vw;min-height: 450px;">

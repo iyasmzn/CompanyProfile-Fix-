@@ -228,7 +228,7 @@ p {
 	text-indent: 50px;
 }
 .about-me-img {
-	background-image: url('https://images.unsplash.com/photo-1574296485283-05828992d106?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+	background-image: url('https://lh3.googleusercontent.com/sVKQLc56UyxTK2wVXXSCmFsHISmIgdBJ2l3AKNVHrNyW_AGkhRIcSnAO4btUTmmGTCuiu_ursL3ChusLE6RnfyQV-0TmbkXb7pu4syAiJOwmUP5SHShTx_pi5hwbTpHlIUsgOsirTw');
 	background-size: cover;
 	background-position: center;
 	border-radius: 5px 50px 5px 5px;
@@ -455,6 +455,52 @@ p {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+}
+.search-body {
+	position: fixed;
+	z-index: 10000;
+	top: 0;right: -100%;
+	width: 400px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+	padding: 7% 2%;
+	color: white!important;
+}
+.search-body .row {
+	width: 100%;
+}
+.search-body input {
+	width: 100%;
+	background: none;
+	color: white;
+	border: none;
+	border-bottom: 2px solid white;
+}
+.search-body h3 {
+	position: relative;
+	margin-bottom: 10%;
+	color: rgba(255,255,255,0.5);
+	transition: color 0.3s;
+}
+.search-body h3:after {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 120%;
+	width: 100%;
+	height: 2px;
+	background: rgba(255,255,255,0.5);
+	transition: background 0.3s;
+}
+.popular-search-hover:hover h3{
+	color: white;
+}
+.popular-search-hover:hover h3:after {
+	background: white;
+}
+.search-active:hover {
+	cursor: pointer;
 }
 
 /* RESPONSIVE */
