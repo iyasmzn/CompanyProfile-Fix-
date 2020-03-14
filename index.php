@@ -18,7 +18,7 @@
 	<!-- Slick -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
-	
+
 </head>
 <body class="bg-darker">
 	<!-- <div class="midnight-plugin">
@@ -31,18 +31,13 @@
 			</a>
 		 	<ul class="navbar-nav mennus">
 		   	<li class="nav-item">
-		   		<a class="nav-link nav-pad" href="#">Home</a>
+		   		<a class="nav-link nav-pad" href="https://iyasmzn07.000webhostapp.com/">Home</a>
 		   	</li>
 		    	<li class="nav-item">
 		      		<a class="nav-link nav-pad" href="#">Portofolio</a>
 		    	</li>
-		    	<li class="nav-item dropdown">
-		      		<a class="nav-link nav-pad dropdown-toggle" href="#"data-toggle="dropdown">Project</a>
-		      		<div class="dropdown-menu">
-		      			<a class="dropdown-item" href="https://iyasmzn07.000webhostapp.com/REEN/">REEN</a>
-		      			<a class="dropdown-item" href="https://iyasmzn07.000webhostapp.com/appCount/">Count App</a>
-		      			<a class="dropdown-item" href="/project/PointOfSale2/">PointOfSale2</a>
-		      		</div>
+		    	<li class="nav-item">
+		      		<a class="nav-link nav-pad" href="#">My Project</a>
 		    	</li>
 		    	<li class="nav-item">
 		      		<a class="nav-link nav-pad" href="#">Design</a>
@@ -84,7 +79,7 @@
 						<h1 class="pb-4" style="text-transform: uppercase;line-height: 2;"><span class="bg-dark-transparent p-2">This is</span><br><span class="bg-dark-transparent p-2">my First Page</span></h1>
 						<p class="bg-dark-transparent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>	
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 						<a onclick="$('#footer').animatescroll({scrollSpeed:15*1000});" class="btn btn-lg btn-light mt-3" style="border-radius: 100px;color: black;text-transform: uppercase;">Check Now!</a>
 					</div>
 				</div>
@@ -93,7 +88,7 @@
 						<h1 class="pb-4" style="text-transform: uppercase;line-height: 2;"><span class="p-2">This is</span><br><span class="p-2">my First Page</span></h1>
 						<p class=""><span class="bg-dark-transparent p-2" style="line-height: 2.5;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</span></p>	
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</span></p>
 						<a class="btn btn-lg btn-light mt-3" style="border-radius: 100px;color: black;text-transform: uppercase;">Check Now!</a>
 					</div>
 				</div>
@@ -106,13 +101,13 @@
 				<li data-target="#carouselSlider" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner">
-				<div class="carousel-item active">			
+				<div class="carousel-item active">
 					<img class="d-block w-100" src="https://images6.alphacoders.com/339/339512.jpg" alt="First slide">
 				</div>
-				<div class="carousel-item">			
+				<div class="carousel-item">
 					<img class="d-block w-100" src="https://images4.alphacoders.com/105/1057070.jpg" alt="Second slide">
 				</div>
-				<div class="carousel-item">			
+				<div class="carousel-item">
 					<img class="lion d-block w-100" src="https://images5.alphacoders.com/524/524527.jpg" alt="Third slide">
 				</div>
 			</div>
@@ -130,7 +125,7 @@
 				<h1 class="pb-4">Lorem ipsum dolor.</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>	
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 				<a class="btn btn-lg btn-light mt-4" style="border-radius: 100px;color: black;text-transform: uppercase;">Lorem ipsum</a>
 			</div>
 		</div>		 -->
@@ -140,7 +135,7 @@
 		<h1 data-aos="fade-up" class="text-center my-3">About Me</h1>
 		<div class="row mt-5">
 			<div data-aos="fade-up" data-aos-delay="200" class="col-md-6 about-me-img" style="height: 27vw;">
-			</div>		
+			</div>
 			<div data-aos="fade-up" data-aos-delay="400" class="col-md-6">
 				<div class="pt-5 pl-4">
 					<h3 class="pb-2">Lorem ipsum dolor </h3>
@@ -152,7 +147,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<!-- <button class="btn btn-md btn-outline-info">Check Me</button> -->
 				</div>
-			</div>		
+			</div>
 		</div>
 	</div>
 	<div data-aos="fade-up" id="count" class="w-100 bg-darkerer py-5" data-midnight="count">
@@ -192,13 +187,13 @@
 				<div data-aos="flip-left" data-aos-delay="200" class="col-sm-6 pt-3">
 					<div class="w-100 work-box-hover mb-3 bg-darkerer">
 						<div class="work-item mb-2">
-							<img class="w-100" src="https://images.unsplash.com/photo-1574656117531-9d86a7aec8a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" align="image 2">
-							<a href="#work" class="work-image-hover text-light">
+							<img class="h-100 centering-x" src="./assets/images/appcount.png" align="image 2">
+							<a href="https://iyasmzn07.000webhostapp.com/appCount/" class="work-image-hover text-light">
 								<i class="fas fa-desktop"></i>
 							</a>
 						</div>
-						<a class="a-for-work-hover" href="#work">Work 2</a>
-						<p class="text-muted pb-3">identify</p>
+						<a class="a-for-work-hover" href="#work">App Count</a>
+						<p class="text-muted pb-3">this is 2D and 3D object count</p>
 					</div>
 				</div>
 				<div data-aos="flip-left" class="col-sm-6 pt-3">
@@ -225,7 +220,7 @@
 						<p class="text-muted pb-3">identify</p>
 					</div>
 				</div>
-			</div>	
+			</div>
 		</div>
 	</div>
 	<div data-aos="fade-right" data-aos-offset="100" id="gallery" class="w-100 bg-transparent py-5 text-light text-center" data-midnight="gallery">
@@ -510,7 +505,7 @@
 							<a href="#recent" class="btn btn-md btn-outline-light"><i class="fas fa-eye"></i></a>
 						</div>
 					</div>
-				</div>		<!-- 
+				</div>		<!--
 				<div class="slider-circle mt-2">
 					<div>
 						<i class="fas fa-circle"></i>
@@ -522,7 +517,7 @@
 			</div>
 		</div>
 	</div>
-	<hr data-aos="zoom-in-down" data-aos-offset="100" style="color: white;background-color: white;"> 
+	<hr data-aos="zoom-in-down" data-aos-offset="100" style="color: white;background-color: white;">
 	<div id="contact-me" class="container text-light my-5" data-midnight="contact-me">
 		<div class="row">
 			<div data-aos="fade-up" data-aos-delay="200" class="col-md-6">
@@ -532,7 +527,7 @@
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>		
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<div class="my-2">
 					<a href="#contact-me" class="btn btn-md btn-outline-light"><i class="fas fa-phone"></i></a>
 					<a href="#contact-me" class="pl-2 text-light">+62 812 3456 7890</a>
@@ -551,7 +546,7 @@
 			</div>
 			<div data-aos="zoom-in" class="col-md-6">
 				<div class="w-100 h-100" style="background: url('https://images.unsplash.com/photo-1561517146-00b7595cb96c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');background-size: cover;border-radius: 40px 0 0 0;"></div>
-			</div>			
+			</div>
 		</div>
 	</div>
 	<div id="footer" class="w-100 bg-darkerer py-4 mt-5" data-midnight="footer">
@@ -595,16 +590,16 @@
 							</span>
 						</div>
 					</div>
-				</div>	
+				</div>
 				<div data-aos="fade-right" class="col-md-3">
 					<h4 class="pb-2">Tags</h4>
 					<div class="quicksand">
-						<a href="" class="btn btn-light btn-md mb-2 mr-1">Still Life</a>					
-						<a href="" class="btn btn-light btn-md mb-2 mr-1">Who</a>					
-						<a href="" class="btn btn-light btn-md mb-2 mr-1">Am</a>					
-						<a href="" class="btn btn-light btn-md mb-2 mr-1">I</a>					
-						<a href="" class="btn btn-light btn-md mb-2 mr-1">Making Life</a>					
-						<a href="" class="btn btn-light btn-md mb-2 mr-1">For My Self</a>				
+						<a href="" class="btn btn-light btn-md mb-2 mr-1">Still Life</a>
+						<a href="" class="btn btn-light btn-md mb-2 mr-1">Who</a>
+						<a href="" class="btn btn-light btn-md mb-2 mr-1">Am</a>
+						<a href="" class="btn btn-light btn-md mb-2 mr-1">I</a>
+						<a href="" class="btn btn-light btn-md mb-2 mr-1">Making Life</a>
+						<a href="" class="btn btn-light btn-md mb-2 mr-1">For My Self</a>
 					</div>
 					<h4 class="pt-4">Categories</h4>
 					<ul class="quicksand">
@@ -612,7 +607,7 @@
 						<li><a href="#footer" class="text-light">Photography (99)</a></li>
 						<li><a href="#footer" class="text-light">Life (1)</a></li>
 					</ul>
-				</div>	
+				</div>
 				<div data-aos="fade-left" class="col-md-3">
 					<h4 class="pb-2">Get in Touch</h4>
 					<p><b>Lorem ipsum</b><br>
@@ -627,7 +622,7 @@
 					<a href="#footer" class="text-light mx-2" style="font-size: 1.7em;"><i class="fab fa-instagram"></i></a>
 					<a href="#footer" class="text-light mx-2" style="font-size: 1.7em;"><i class="fab fa-facebook"></i></a>
 					<a href="#footer" class="text-light mx-2" style="font-size: 1.7em;"><i class="fab fa-pinterest"></i></a>
-				</div>	
+				</div>
 				<div data-aos="fade-left" data-aos-delay="200" class="col-md-3">
 					<h4 class="pb-2">Learn More</h4>
 					<div class="quicksand" style="line-height: 30px;">
@@ -641,7 +636,7 @@
 						<a href="#footer" class="text-light">Get Started</a><br>
 						<a href="#footer" class="text-light">Contact</a>
 					</div>
-				</div>	
+				</div>
 			</div>
 		</div>
 	</div>
